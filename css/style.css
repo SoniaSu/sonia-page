@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: "sans-serif";
+color:#484891
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  height: 100vh;
+  background-image:
+  url("http://www.pconline.com.cn/pcedu/photo/10306/pic/26bhltian16.jpg");
+  
+  background-repeat: no-repeat; /* 這行 code 讓 圖片不會重複出現 */
+  background-size: cover;
+}
+
+.panel{
+  width:59vw;
+  height:33.5vh;
+  background-color: rgba(255,255,255,0.6);
+  display:flex; 
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  border-radius:10px;
+  padding:0px;
+  
+}
+
+.selfie{
+  height:100px;
+  width:100px;
+  border-radius:100%;
+  background-image: url('../img/花園涼凳.jpeg');
+  background-size: cover;
+  
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+h3 {
+  text-align: center;
+  margin:0px;
+  font-size: 25px;
+  color: rgb(100,85,90);
+}
+
+.about {
+  height: 55vh;
+  background-color:rgba(50,50,50,0.2);
+  padding:45px;
+}
+
+.about p {
+  border: none;
+  height:35px;
+  color:#484891;
+}
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.content-p {
+  display: flex;
+  flex-direction: column;
+  margin:39px;
+}
+
+.experience {
+  height: 98vh;
+  background-color:#f2e6e6;
+}
+.experience h3{
+  margin-bottom:15px;
+  
+}
+.experience p{
+  margin:20px;
+}
+
+.photos{
+  height:75vh;background-color:#fff3ee;
+}
+.photo-wrapper{
+  display:flex;
+}
+.photo{
+  width:200px;
+  height:200px;
+  background-color: #fcfcfc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:20px;
+}
+.photo1{
+  background-image: url('../img/IMG_Sonia1.jpg');
+}
+.photo2{
+  background-image: url('../img/IMG_Sonia3.jpg');
+}
+.photo3{
+  background-image: url('../img/IMG_Sonia2.jpg');
+}
+.contact {
+  height: 38vh;
+  background-color:#204060;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center
+}
+.contact h3{
+  color:white;
+}
+.contact h5{
+  margin-top:30px;
+}
+.contact a{
+  color:white;
+}
+.test{
+  width:300px;
+  height:300px;
+}
